@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "BEEF77F3-8CC1-4159-9FAE-8F790676A6E6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AtdTest.xcodeproj",
+      "identifier" : "55F69AD62B136F540019F5DF",
+      "name" : "AtdTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:AtdTest.xcodeproj",
+        "identifier" : "55F69AEC2B136F550019F5DF",
+        "name" : "AtdTestTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:AtdTest.xcodeproj",
+        "identifier" : "55F69B6D2B138C850019F5DF",
+        "name" : "AtdTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
